@@ -4,7 +4,9 @@
 
 *Repo Link*: https://github.com/nikhildevarakonda320/full_stack.git
 
-*Deployment Link*: http://ec2-18-119-126-116.us-east-2.compute.amazonaws.com
+*Deployment Link*: http://ec2-3-128-79-233.us-east-2.compute.amazonaws.com
+|
+
 
 
 
