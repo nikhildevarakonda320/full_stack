@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  backend:
+    build: 
+      context: ./expressjs-and-rest-nikhildevarakonda320
+      dockerfile: Dockerfile
+    ports:
+      - "1000:1000"  # Map container's 6000 to host's 5025
+    environment:
+      - PORT=1000    # Change the port inside the container to 6000
+      - NODE_ENV=production
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./my-app.
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  db-data:
+    driver: local
