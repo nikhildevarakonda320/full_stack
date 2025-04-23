@@ -4,8 +4,13 @@
 
 *Repo Link*: https://github.com/nikhildevarakonda320/full_stack.git
 
-*Deployment Link*: http://ec2-3-128-79-233.us-east-2.compute.amazonaws.com
-|
+frontend link : https://github.com/nikhildevarakonda320/my-app..git
+
+backend link: https://github.com/ICSI518/expressjs-and-rest-nikhildevarakonda320.git
+
+Deployment Link: http://ec2-3-128-79-233.us-east-2.compute.amazonaws.com
+
+Publie IPV4 Address file: http://3.128.79.233
 
 
 
